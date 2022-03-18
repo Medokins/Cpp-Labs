@@ -1,6 +1,7 @@
 #include "MyList.h"
 
 MyList::MyList(int n){
+  cout << "KONST: Jednoargumentowy" << endl;
   _size = n;
   for(int i = 0; i < n; i++){
     MyNode * temp = new MyNode;
